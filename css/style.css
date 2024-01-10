@@ -1,0 +1,138 @@
+.fotosItems {
+    height: 200px;
+    width: 350px;
+
+}
+
+.contenedorItem {
+    border: 2px black dotted;
+    width: 400px;
+    height: 250px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 10px 40px;
+}
+
+.contenedorDeContenedor {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px goldenrod solid;
+}
+
+.logoImg {
+    width: 85px;
+    height: 85px;
+    background-color: black;
+}
+
+a {
+    /* border: 6px goldenrod solid; */
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    /* background-color: goldenrod; */
+    border-radius: 50px;
+}
+
+body {
+    background-color: black;
+}
+
+h1,
+h2,
+h3,
+p {
+    color: white;
+}
+
+.preguntas {
+    padding-left: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 2px goldenrod dotted;
+
+}
+
+footer {
+    position: bottom;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px goldenrod solid;
+}
+
+iframe {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    width: 400px;
+    height: 400px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* Barra de navegacion con bootstrap: */
+.barraNav {
+    background-color: black;
+}
+
+.barraNav a {
+    color: white;
+}
+
+.barraNav a:hover {
+    color: goldenrod;
+}
+
+.navbar {
+    padding: 0;
+}
+
+
+/* Formularios Con Bootstrap */
+.custom-width-text-area {
+    width: 450px;
+
+}
+
+.etiquetasFormulario {
+    color: white;
+}
+
+.custom-width-small-area {
+    width: 250px;
+}
+
+.custom-width-mail-area {
+    width: 350px;
+}
+
+.botonEnviar {
+    display: flex;
+    margin-top: 10px;
+}
