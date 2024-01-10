@@ -113,6 +113,9 @@ label {
     padding: 0;
 }
 
+.navbar-toggler {
+    background-color: goldenrod;
+}
 
 /* Formularios Con Bootstrap */
 .custom-width-text-area {
@@ -133,6 +136,46 @@ label {
 }
 
 .botonEnviar {
-    display: flex;
     margin-top: 10px;
+}
+
+/* estilo cards inicio */
+
+.custom-card-text {
+    font-weight: bold;
+    color: white;
+
+}
+
+.customized-card {
+    width: 300px;
+    background-color: black;
+    border: 2px goldenrod dotted;
+
+
+}
+
+.card-title {
+    color: goldenrod;
+}
+
+.card-header {
+    color: white;
+    border-bottom: 2px goldenrod dotted;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* medias querys */
+
+@media(max-width: 550px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
 }
