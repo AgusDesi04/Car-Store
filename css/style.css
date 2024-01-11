@@ -42,11 +42,9 @@ header {
 }
 
 a {
-    /* border: 6px goldenrod solid; */
     text-transform: uppercase;
     text-decoration: none;
     color: black;
-    /* background-color: goldenrod; */
     border-radius: 50px;
 }
 
@@ -117,6 +115,10 @@ label {
     background-color: goldenrod;
 }
 
+.ms-auto {
+    justify-content: end;
+}
+
 /* Formularios Con Bootstrap */
 .custom-width-text-area {
     width: 450px;
@@ -139,13 +141,9 @@ label {
     margin-top: 10px;
 }
 
-/* estilo cards inicio */
+/* estilo cards*/
 
-.custom-card-text {
-    font-weight: bold;
-    color: white;
-
-}
+/* estilo cards index */
 
 .customized-card {
     width: 300px;
@@ -155,11 +153,25 @@ label {
 
 }
 
-.card-title {
-    color: goldenrod;
+
+
+.card-title-index {
+    color: white;
 }
 
 .card-header {
     color: white;
     border-bottom: 2px goldenrod dotted;
+}
+
+/* estilo cards store */
+.custom-card-text-store {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+
+}
+
+.card-title-store {
+    color: black;
 }
