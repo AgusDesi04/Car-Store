@@ -163,19 +163,3 @@ label {
     color: white;
     border-bottom: 2px goldenrod dotted;
 }
-
-.cards {
-    display: flex;
-    flex-direction: row;
-}
-
-
-/* medias querys */
-
-@media(max-width: 550px) {
-    .cards {
-        display: flex;
-        flex-direction: column;
-        margin: 30px;
-    }
-}
