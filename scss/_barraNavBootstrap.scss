@@ -1,0 +1,46 @@
+/* Barra de navegacion con bootstrap: */
+
+.barraNav {
+  background-color: black;
+
+  a {
+    color: $color-principal-letras;
+
+    &:hover {
+      color: $color-principal-pagina;
+    }
+  }
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-toggler {
+  background-color: $color-principal-pagina;
+}
+
+.ms-auto {
+  justify-content: end;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px $color-principal-pagina solid;
+}
+
+.logoImg {
+  width: 85px;
+  height: 85px;
+  background-color: black;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 10px 40px;
+}

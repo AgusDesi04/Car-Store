@@ -1,0 +1,30 @@
+/* estilo cards*/
+
+/* estilo cards index */
+
+.customized-card {
+  width: 300px;
+  background-color: black;
+  border: 2px $color-principal-pagina dotted;
+}
+
+.card-title-index {
+  color: $color-principal-letras;
+}
+
+.card-header {
+  color: $color-principal-letras;
+  border-bottom: 2px $color-principal-pagina dotted;
+}
+
+/* estilo cards store */
+
+.custom-card-text-store {
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.card-title-store {
+  color: black;
+}

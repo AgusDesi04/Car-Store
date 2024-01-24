@@ -1,0 +1,15 @@
+/* color del body general */
+
+body {
+  background-color: black;
+}
+
+/* color de las letras general */
+
+h1,
+h2,
+h3,
+h4,
+p {
+  color: $color-principal-letras;
+}

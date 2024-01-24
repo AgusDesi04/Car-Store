@@ -1,0 +1,29 @@
+/* Formularios Con Bootstrap */
+
+.custom-width-text-area {
+  width: 450px;
+}
+
+.etiquetasFormulario {
+  color: $color-principal-letras;
+}
+
+.custom-width-small-area {
+  width: 250px;
+}
+
+.custom-width-mail-area {
+  width: 350px;
+}
+
+.botonEnviar {
+  margin-top: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  @include labels
+}
