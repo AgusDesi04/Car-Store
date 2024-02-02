@@ -17,6 +17,10 @@
   border-bottom: 2px $color-principal-pagina dotted;
 }
 
+.cards-flex{
+  display: flex;
+  justify-content: center;
+}
 /* estilo cards store */
 
 .custom-card-text-store {

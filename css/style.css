@@ -59,6 +59,11 @@ li {
   border-bottom: 2px goldenrod dotted;
 }
 
+.cards-flex {
+  display: flex;
+  justify-content: center;
+}
+
 /* estilo cards store */
 .custom-card-text-store {
   font-weight: bold;
